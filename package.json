@@ -1,0 +1,23 @@
+{
+  "name": "xinyu-alfred-open-in-vscode",
+  "version": "0.1.0",
+  "description": "alfred workflow to open folder in vscode",
+  "type": "module",
+  "main": "index.js",
+  "author": "xinyu",
+  "repository": "blank-x/xinyu-alfred-open-in-vscode",
+  "scripts": {
+    "dev:link": "alfred-link",
+    "dev:unlink": "alfred-unlink",
+    "postinstall": "alfy-init"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "alfy": "^1.1.0",
+    "fast-glob": "^3.3.1"
+  },
+  "engines": {
+		"node": ">=14.13.1"
+	}
+}
