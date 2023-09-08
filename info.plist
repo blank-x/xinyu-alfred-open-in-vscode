@@ -8,7 +8,7 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
-		<key>4FE6F619-4185-4195-9099-BFBFB9A3A220</key>
+		<key>icon</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -115,7 +115,7 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>4FE6F619-4185-4195-9099-BFBFB9A3A220</string>
+			<string>icon</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -148,7 +148,7 @@
 			<key>ypos</key>
 			<integer>55</integer>
 		</dict>
-		<key>4FE6F619-4185-4195-9099-BFBFB9A3A220</key>
+		<key>icon</key>
 		<dict>
 			<key>xpos</key>
 			<integer>60</integer>

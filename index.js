@@ -1,9 +1,8 @@
 import alfy from "alfy";
 import path from "path";
 import glob from "fast-glob";
-const os = require('os');
 
-const wds = !!process.env?.alfred_vscode_wd ? process.env?.alfred_vscode_wd.split(",")	: [os.homedir()];
+const wds = !!process.env?.alfred_vscode_wd ? process.env?.alfred_vscode_wd.split(",")	: [];
 
 const formatOutput = ({name, path}) => {
 	return {
@@ -66,7 +65,13 @@ const filtered = parsedCache
 										.sort((a, b)=>{
 											return b.index - a.index
 										}).map(formatOutput);
- 
-alfy.output(filtered);
+
+if(wds.length === 0){
+  alfy.output([{
+    title: '请先配置环境变量 【alfred_vscode_wd】',
+  }]);
+} else {
+  alfy.output(filtered);
+}
 
 
