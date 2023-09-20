@@ -8,11 +8,11 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
-		<key>icon</key>
+		<key>B88B158F-1398-4E59-847C-EA15ABF62153</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>B88B158F-1398-4E59-847C-EA15ABF62153</string>
+				<string>32A3AD1D-917A-496D-A05A-664E309A0FAB</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -21,11 +21,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>B88B158F-1398-4E59-847C-EA15ABF62153</key>
+		<key>icon</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>32A3AD1D-917A-496D-A05A-664E309A0FAB</string>
+				<string>B88B158F-1398-4E59-847C-EA15ABF62153</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -45,31 +45,6 @@
 	<string>xinyu-alfred-open-in-vscode</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>query=$1
-
-/usr/local/bin/code $query</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>B88B158F-1398-4E59-847C-EA15ABF62153</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -122,6 +97,31 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query=$1
+
+/usr/local/bin/code $query</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B88B158F-1398-4E59-847C-EA15ABF62153</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
 				<string>'{query}', {allvars}</string>
 				<key>cleardebuggertext</key>
@@ -144,29 +144,31 @@
 		<key>32A3AD1D-917A-496D-A05A-664E309A0FAB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>360</integer>
+			<real>360</real>
 			<key>ypos</key>
-			<integer>55</integer>
-		</dict>
-		<key>icon</key>
-		<dict>
-			<key>xpos</key>
-			<integer>60</integer>
-			<key>ypos</key>
-			<integer>25</integer>
+			<real>55</real>
 		</dict>
 		<key>B88B158F-1398-4E59-847C-EA15ABF62153</key>
 		<dict>
 			<key>xpos</key>
-			<integer>210</integer>
+			<real>210</real>
 			<key>ypos</key>
-			<integer>25</integer>
+			<real>25</real>
+		</dict>
+		<key>icon</key>
+		<dict>
+			<key>xpos</key>
+			<real>60</real>
+			<key>ypos</key>
+			<real>25</real>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>variables</key>
 	<dict>
 		<key>alfred_vscode_wd</key>
-		<string></string>
+		<string>/Users/zhaoshaoyong/360/*,/Users/zhaoshaoyong/xinyu/*</string>
 	</dict>
 	<key>version</key>
 	<string>0.0.6</string>

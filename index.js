@@ -54,12 +54,12 @@ if(parsedCache.length){
 const input = alfy.input || '';
 
 const filtered = parsedCache
-										.filter(item=>item.name.includes(input))
+										.filter(item=>item && item.name.includes(input))
 										.map((item=>{
 
 											return {
 												...item,
-												 index: item.name.indexOf(input)
+												 index: item && item.name.indexOf(input)
 												}
 										}))
 										.sort((a, b)=>{

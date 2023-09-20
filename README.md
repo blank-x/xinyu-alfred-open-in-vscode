@@ -8,7 +8,7 @@
 
 然后在workfllows中配置需要打开的项目目录，参考：
 ```
-要求是绝对的glob地址：/Users/aaa/work/*,/Users/aaa/home/*
+要求配置的目录是绝对的glob地址，比如： [ /Users/aaa/work/*,/Users/aaa/home/*  ]
 ```
 ![image](https://github.com/blank-x/xinyu-alfred-open-in-vscode/assets/16700540/e8e53143-6988-4d7b-a1b4-12ce4d4b5178)
 
