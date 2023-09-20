@@ -168,7 +168,7 @@
 	<key>variables</key>
 	<dict>
 		<key>alfred_vscode_wd</key>
-		<string>/Users/zhaoshaoyong/360/*,/Users/zhaoshaoyong/xinyu/*</string>
+		<string></string>
 	</dict>
 	<key>version</key>
 	<string>0.0.6</string>
