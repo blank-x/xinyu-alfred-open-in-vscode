@@ -1,6 +1,6 @@
 {
   "name": "xinyu-alfred-open-in-vscode",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "alfred workflow to open folder in vscode",
   "type": "module",
   "main": "index.js",
